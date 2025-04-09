@@ -9,7 +9,11 @@
    4 hs (A few minutes more just to add the animation)
 
 3. Any assumptions you made
-   N/A
+   In the filters, the data categories filter is a multiselect, and it operates as an AND condition.
+   This means that a system must have all the selected categories to be considered.
+
+   The data use filter is a single-value select. This is because, in the proposal, the filter is described in the singular.
+   You can change the layout using a select.
 
 4. Any trade-offs you made
    I tried to add the arrows using a library. It didn't work as expected, so instead of showing arrows, I display the dependency system names under the details section.
