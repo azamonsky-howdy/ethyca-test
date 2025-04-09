@@ -1,6 +1,6 @@
 import { Card, Collapse, Flex, Tag } from "antd";
 import System from "../models/system";
-import MapItemDetail from "./MapitemDetail";
+import MapItemDetail from "./MapItemDetail";
 
 interface MapCardParams {
   system: System;
